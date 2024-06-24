@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}"
+</head>
+<body>
+    <center>
+        <h1>This is static file</h1>
+        <h2>Virat Kohli Page</h2>
+        <img src="{{url_for('static',filename='images/virat.jpg')}}" alt="">
+        <p>Virat Kohli is an Indian cricketer known for his exceptional batting
+             skills and aggressive leadership. Born on November 5, 1988, he is
+              widely regarded as one of the greatest batsmen in modern cricket.
+               Kohli has broken numerous records across all formats and captained 
+               India to significant victories. His intense work ethic, passion for
+                the game, and charismatic persona have made him a global sports icon.</p>
+        <h3><a href="{{url_for('dhoni')}}">Go to Dhoni</a></h3>
+    </center>
+</body>
+</html>
